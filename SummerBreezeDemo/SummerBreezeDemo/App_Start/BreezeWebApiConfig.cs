@@ -13,10 +13,10 @@ namespace SummerBreezeDemo.App_Start {
   public static class BreezeWebApiConfig {
 
     public static void RegisterBreezePreStart() {
-      GlobalConfiguration.Configuration.Routes.MapHttpRoute(
-          name: "BreezeApi",
-          routeTemplate: "breeze/{controller}/{action}"
-      );
+      //GlobalConfiguration.Configuration.Routes.MapHttpRoute(
+      //    name: "BreezeApi",
+      //    routeTemplate: "breeze/{controller}/{action}"
+      //);
     }
   }
 }
